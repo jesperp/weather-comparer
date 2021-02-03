@@ -2,7 +2,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "NODE_ENV=production snowpack build",
-    "serve": "live-server build/",
+    "serve": "live-server",
     "test": "echo \"Tests TODO.\" && exit 1"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.1.0",
     "@snowpack/plugin-webpack": "^2.3.0",
+    "core-js": "^3.8.3",
     "live-server": "^1.2.1",
     "snowpack": "^3.0.1"
   }

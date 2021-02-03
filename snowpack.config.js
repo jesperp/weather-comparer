@@ -5,7 +5,8 @@ module.exports = {
     src: {url: '/dist'},
   },
   plugins: [
-    '@snowpack/plugin-postcss'
+    '@snowpack/plugin-postcss',
+    ['@snowpack/plugin-webpack', {}],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
@@ -23,6 +24,6 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    "baseUrl": "/weather-comparer"
   },
 };
