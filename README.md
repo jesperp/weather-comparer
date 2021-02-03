@@ -1,5 +1,4 @@
-# Weather station comparison
-
+![Weather comparer screenshot](weathercomparer.png?raw=true "Weather comparer screenshot")
 
 ### npm start
 
