@@ -1,0 +1,66 @@
+{
+  "inputs": {
+    "_snowpack/pkg/chartjs.js": {
+      "bytes": 597078,
+      "imports": []
+    },
+    "dist/tailwind.css": {
+      "bytes": 13273,
+      "imports": []
+    },
+    "dist/index.css": {
+      "bytes": 1192,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 2286,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/chartjs.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/tailwind.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_snowpack/pkg/chartjs.js": {
+          "bytesInOutput": 235062
+        },
+        "dist/index.js": {
+          "bytesInOutput": 1160
+        },
+        "dist/tailwind.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 237095
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/index.css": {
+          "bytesInOutput": 879
+        },
+        "dist/tailwind.css": {
+          "bytesInOutput": 5360
+        }
+      },
+      "bytes": 6240
+    }
+  }
+}
